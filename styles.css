@@ -1,0 +1,136 @@
+/* The code on lines 3-7 makes the background of the header black and the text of the title of the webpage white. Change this to match what you want for your website! */
+
+head {
+    padding: 25px;
+}
+
+h1 {
+    padding: 45px;
+    font-size: 70px;
+    text-align: center;
+    color: #003c00;
+    border: solid 9px;
+    border-color: #003c00;
+}
+
+.header-img {
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 45px;
+}
+
+.subtext1 {
+    color: #002E2C;
+    font-size: 26px;
+    font-family: 'EB Garamond', serif;
+    margin: 5px;
+    margin-bottom: 3px;
+}
+
+.subtext2 {
+    color: #002E2C;
+    font-size: 26px;
+    font-family: 'EB Garamond', serif;
+    margin: 5px;
+    margin-bottom: 3px;
+    margin-left: 51px;
+}
+
+h2 {
+    color: #126139;
+    font-size: 35px;
+    font-family: 'EB Garamond', serif;
+}
+
+p {
+    color: #126139;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+body {
+    background-color: #BAD4AA;
+}
+
+/* #F0FDDE
+   #BAD4AA
+   #002E2C */
+
+img {
+    display: block;
+    border-radius: 7px;
+}
+
+.actionimg-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.action-img {
+    width: 345px;
+}
+
+.work-img {
+    width: 373px;
+    margin-left: 38px;
+    padding-top: 21px;
+}
+
+.links {
+    display: flex;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'EB Garamond', serif;
+}
+
+.links2 {
+    display: flex;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'EB Garamond', serif;
+    border: 50px;
+}
+
+.ul2 {
+    margin-left: 35px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sections {
+    margin-left: 35px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.vid-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 18px;
+}
+
+.videos {
+    width: 480px;
+    height: 320px;
+}
